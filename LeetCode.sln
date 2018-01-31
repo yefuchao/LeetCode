@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Two Numbers", "Add Two Numbers\Add Two Numbers.csproj", "{47264B57-43E0-475E-A011-DBF729D9D61A}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jump Game II", "Jump Game II\Jump Game II.csproj", "{E5A474E6-2EF3-46C8-99FF-3AA2EF8F9562}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Element", "Remove Element\Remove Element.csproj", "{A42893DF-9776-4C5B-997F-DABA7360C949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman to Integer", "Roman to Integer\Roman to Integer.csproj", "{28DF9587-083B-4B35-AE45-28E1791EA494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse Integer", "Reverse Integer\Reverse Integer.csproj", "{76D60277-7D0D-4C04-B194-0D81041A5862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "3Sum\3Sum.csproj", "{F66A9E90-EF88-406D-AC1C-2BA1E6A4A50D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{A42893DF-9776-4C5B-997F-DABA7360C949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A42893DF-9776-4C5B-997F-DABA7360C949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A42893DF-9776-4C5B-997F-DABA7360C949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DF9587-083B-4B35-AE45-28E1791EA494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DF9587-083B-4B35-AE45-28E1791EA494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DF9587-083B-4B35-AE45-28E1791EA494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DF9587-083B-4B35-AE45-28E1791EA494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D60277-7D0D-4C04-B194-0D81041A5862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D60277-7D0D-4C04-B194-0D81041A5862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D60277-7D0D-4C04-B194-0D81041A5862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D60277-7D0D-4C04-B194-0D81041A5862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66A9E90-EF88-406D-AC1C-2BA1E6A4A50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66A9E90-EF88-406D-AC1C-2BA1E6A4A50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66A9E90-EF88-406D-AC1C-2BA1E6A4A50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66A9E90-EF88-406D-AC1C-2BA1E6A4A50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
