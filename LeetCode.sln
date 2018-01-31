@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jump Game", "Jump Game\Jump
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jump Game II", "Jump Game II\Jump Game II.csproj", "{E5A474E6-2EF3-46C8-99FF-3AA2EF8F9562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Element", "Remove Element\Remove Element.csproj", "{A42893DF-9776-4C5B-997F-DABA7360C949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{E5A474E6-2EF3-46C8-99FF-3AA2EF8F9562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5A474E6-2EF3-46C8-99FF-3AA2EF8F9562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5A474E6-2EF3-46C8-99FF-3AA2EF8F9562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42893DF-9776-4C5B-997F-DABA7360C949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42893DF-9776-4C5B-997F-DABA7360C949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42893DF-9776-4C5B-997F-DABA7360C949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42893DF-9776-4C5B-997F-DABA7360C949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
