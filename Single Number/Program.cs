@@ -20,11 +20,11 @@ namespace Single_Number
 
         public static int SingleNumber(int[] nums)
         {
-            var a = 0;
+            var a = nums[0];
 
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = 1; i < nums.Length; i++)
             {
-                a = a ^ nums[i];
+                a ^= nums[i];
             }
 
             return a;
