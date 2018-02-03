@@ -14,9 +14,11 @@ namespace _4Sum
 
             // nums = new int[] { -2, -1, 0, 0, 1, 2 }; //
 
-            //nums = new int[] { 5, 5, 3, 5, 1, -5, 1, -2 }; //4
+            nums = new int[] { 5, 5, 3, 5, 1, -5, 1, -2 }; //4
 
-            nums = new int[] { 0, 0, 0, 0 };
+            //nums = new int[] { 0, 0, 0, 0 };
+
+            nums = new int[] { -3, -2, -1, 0, 0, 1, 2, 3 }; //0
 
             var t = FourSum(nums, 0);
 
@@ -26,8 +28,6 @@ namespace _4Sum
         public static IList<IList<int>> FourSum(int[] nums, int target)
         {
 
-            //todo
-
             IList<IList<int>> result = new List<IList<int>>();
 
             Array.Sort(nums);
@@ -36,62 +36,58 @@ namespace _4Sum
 
             for (int i = 0; i < len - 3; i++)
             {
-                for (int j = len - 1; j >= 0; j--)
+                for (int j = i + 1; j < len - 2; j++)
                 {
-                    if (j == i)
-                    {
-                        continue;
-                    }
+                    var font = j + 1;
+                    var back = len - 1;
 
-                    var font = i + 1;
-
-                    var back = j - 1;
-
-                    while (back > font)
+                    while (font < back)
                     {
                         var sum = nums[i] + nums[j] + nums[font] + nums[back];
 
-                        if (sum < target)
+                        if (target > sum)
                         {
                             font++;
                         }
-                        else if (sum > target)
+                        else if (target < sum)
                         {
                             back--;
                         }
                         else
                         {
-                            List<int> list = new List<int> { nums[i], nums[j], nums[font], nums[back] };
+                            var list = new List<int> { nums[i], nums[j], nums[font], nums[back] };
 
                             result.Add(list);
 
                             font++;
                             back--;
 
-                            while (nums[font] == list[2] && font < back)
+                            while (font < back && nums[font] == list[2])
                             {
                                 font++;
                             }
 
-                            while (nums[back] == list[3] && back > font)
+                            while (back > font && nums[back] == list[3])
                             {
                                 back--;
                             }
                         }
-
                     }
 
-                    while (j > 2 && nums[j] == nums[j - 1] && j > i)
+
+
+                    while (j < len - 3 && nums[j] == nums[j + 1])
                     {
-                        j--;
+                        j++;
                     }
                 }
 
-                while (nums[i] == nums[i++] && i < len - 3)
+                while (i < len - 4 && nums[i] == nums[i + 1])
                 {
                     i++;
                 }
             }
+
 
             return result;
         }
