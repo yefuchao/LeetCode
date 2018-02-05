@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Two Sorted Lists", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{E29291ED-CA21-4821-BCF8-F5BB9938B647}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate Parentheses", "Generate Parentheses\Generate Parentheses.csproj", "{6650A4AA-31C5-4E36-AFA4-D01D7A5CC8B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap Nodes in Pairs", "Swap Nodes in Pairs\Swap Nodes in Pairs.csproj", "{8B6C1599-A106-4DD1-9E74-27C4A3154714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{E29291ED-CA21-4821-BCF8-F5BB9938B647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E29291ED-CA21-4821-BCF8-F5BB9938B647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29291ED-CA21-4821-BCF8-F5BB9938B647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6650A4AA-31C5-4E36-AFA4-D01D7A5CC8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6650A4AA-31C5-4E36-AFA4-D01D7A5CC8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6650A4AA-31C5-4E36-AFA4-D01D7A5CC8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6650A4AA-31C5-4E36-AFA4-D01D7A5CC8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6C1599-A106-4DD1-9E74-27C4A3154714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6C1599-A106-4DD1-9E74-27C4A3154714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6C1599-A106-4DD1-9E74-27C4A3154714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6C1599-A106-4DD1-9E74-27C4A3154714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
