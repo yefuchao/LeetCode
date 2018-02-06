@@ -24,6 +24,11 @@ namespace Swap_Nodes_in_Pairs
 
         public static ListNode SwapPairs(ListNode head)
         {
+            if (head == null)
+            {
+                return null;
+            }
+
             ListNode node = new ListNode(0);
 
             Queue<int> one = new Queue<int>();
@@ -62,9 +67,9 @@ namespace Swap_Nodes_in_Pairs
                 }
             }
 
-            node = GenerateListNode(node, all);
+            node = GenerateListNode(node.next, all);
 
-            return node.next;
+            return node;
 
         }
 
@@ -72,11 +77,12 @@ namespace Swap_Nodes_in_Pairs
         {
             if (queue.Count > 0)
             {
-                node.next = new ListNode(queue.Dequeue());
-                return GenerateListNode(node.next, queue);
+                node = new ListNode(queue.Dequeue());
+                node.next = GenerateListNode(node.next, queue);
+                return node;
             }
 
-            return node.next;
+            return null;
 
         }
 
