@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate Parentheses", "Gen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap Nodes in Pairs", "Swap Nodes in Pairs\Swap Nodes in Pairs.csproj", "{8B6C1599-A106-4DD1-9E74-27C4A3154714}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Duplicates from Sorted Array", "Remove Duplicates from Sorted Array\Remove Duplicates from Sorted Array.csproj", "{AC7F91E5-48CD-4FBE-A21E-46032B571ACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{8B6C1599-A106-4DD1-9E74-27C4A3154714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B6C1599-A106-4DD1-9E74-27C4A3154714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B6C1599-A106-4DD1-9E74-27C4A3154714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7F91E5-48CD-4FBE-A21E-46032B571ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7F91E5-48CD-4FBE-A21E-46032B571ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7F91E5-48CD-4FBE-A21E-46032B571ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7F91E5-48CD-4FBE-A21E-46032B571ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
