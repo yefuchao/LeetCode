@@ -10,7 +10,6 @@ namespace Swap_Nodes_in_Pairs
     {
         static void Main(string[] args)
         {
-            //TODO Swap_Nodes_in_Pairs
 
             ListNode head = new ListNode(1)
             {
