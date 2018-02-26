@@ -8,36 +8,66 @@ namespace Min_Stack
 {
     public class MinStack
     {
-        private object[] _array;
-        private int _size;
+        #region
+        private Stack<long> _stack;
+
+        private long _min;
 
         public MinStack()
         {
-            _size = 0;
-            _array = new object[int.MaxValue];
+            _stack = new Stack<long>();
         }
 
         public void Push(int x)
         {
-            _array[_size] = x;
-            _size++;
+            if (_stack.Count == 0)
+            {
+                _stack.Push(0L);
+                _min = x;
+            }
+            else
+            {
+                _stack.Push(x - _min);
+                if (x < _min)
+                {
+                    _min = x;
+                }
+            }
         }
 
         public void Pop()
         {
-            _array[--_size] = null;
+            if (_stack.Count == 0)
+            {
+                return;
+            }
+
+            long pop = _stack.Pop();
+
+            if (pop < 0)
+            {
+                _min = _min - pop;
+            }
         }
 
         public int Top()
         {
-            var top = _size - 1;
-            return (int)_array[top];
+            long top = _stack.Peek();
 
+            if (top > 0)
+            {
+                return (int)(top + _min);
+            }
+            else
+            {
+                return (int)(_min);
+            }
         }
 
         public int GetMin()
         {
-            return (int)_array.Min(p => p);
+            return (int)_min;
         }
+        #endregion
     }
 }
