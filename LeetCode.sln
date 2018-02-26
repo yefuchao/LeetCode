@@ -55,8 +55,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Valid Parentheses",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Word in Dictionary", "Longest Word in Dictionary\Longest Word in Dictionary.csproj", "{AB9496DF-9C9A-4AD4-91C4-9BE2BF4D3A9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Characters By Frequency", "Sort Characters By Frequency\Sort Characters By Frequency.csproj", "{74BB2708-127F-4692-A8C5-8529896DB3E1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Min Stack", "Min Stack\Min Stack.csproj", "{4E579483-772E-4AA3-81BF-D8397AA490E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My_Queue", "MyQueue\My_Queue.csproj", "{DC215B78-9ADC-404A-B865-FDA55AB99C15}"
