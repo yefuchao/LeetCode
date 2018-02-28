@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace My_Queue
 {
+
     public class MyStack
     {
+
         Queue<int> q1;
         Queue<int> q2;
 
