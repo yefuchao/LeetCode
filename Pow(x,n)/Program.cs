@@ -10,32 +10,38 @@ namespace Pow_x_n_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MyPow(2.1000, 3));
+            Console.WriteLine(MyPow(2, 10));
 
             Console.ReadLine();
         }
 
         public static double MyPow(double x, int n)
         {
-            double obj = 1.00000;
+            long N = n;
 
-            var val = Pow(x, n, x);
-
-            return obj * val;
-
-        }
-
-        public static double Pow(double x, int n, double current)
-        {
-
-            if (n / 2 > 1)
+            if (N < 0)
             {
-                var val = Pow(x, n / 2, current);
-
-                return val;
+                x = 1 / x;
+                N = -N;
             }
 
-            return x * x;
+            double ans = 1.0;
+
+            double current = x;
+
+            for (long i = N; i > 0; i /= 2)
+            {
+                if (i % 2 == 1)
+                {
+                    ans = ans * current;
+                }
+
+                current *= current;
+            }
+
+            return ans;
+
+
         }
 
     }
