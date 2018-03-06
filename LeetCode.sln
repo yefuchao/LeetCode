@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search for a Range", "Searc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pow(x,n)", "Pow(x,n)\Pow(x,n).csproj", "{95DEE256-6397-47DA-AF82-15A9740B56A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House Robber", "House Robber\House Robber.csproj", "{DA1447BF-0380-483E-B510-1BE22EA4015E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{95DEE256-6397-47DA-AF82-15A9740B56A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DEE256-6397-47DA-AF82-15A9740B56A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DEE256-6397-47DA-AF82-15A9740B56A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1447BF-0380-483E-B510-1BE22EA4015E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1447BF-0380-483E-B510-1BE22EA4015E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1447BF-0380-483E-B510-1BE22EA4015E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1447BF-0380-483E-B510-1BE22EA4015E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
