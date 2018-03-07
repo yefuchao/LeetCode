@@ -14,23 +14,29 @@ namespace Minimum_Path_Sum
 
             Console.WriteLine(MinPathSum(grid));
 
+            int[,] grid2 = { { 1, 3, 1 }, { 1, 5, 1 }, { 4, 2, 1 } };
+
+            Console.WriteLine(MinPathSum(grid2));
+
+            int[,] grid3 = { { 1, 2, 5 }, { 3, 2, 1 } };
+
+            Console.WriteLine(MinPathSum(grid3));
+
             Console.ReadLine();
         }
 
         public static int MinPathSum(int[,] grid)
         {
-            //TODO
 
             if (grid.Length == 0)
             {
                 return 0;
             }
 
-            var row = grid.GetLength(1); // 行数
+            var row = grid.GetLength(1);
+            var col = grid.GetLength(0);
 
-            var col = grid.GetLength(0); //列数
-
-            int[,] map = new int[col, col];
+            int[,] map = new int[Math.Max(row, col), Math.Max(row, col)];
 
             for (int i = 0; i < col; i++)
             {
@@ -54,17 +60,11 @@ namespace Minimum_Path_Sum
                         {
                             map[i, j] = map[i, j - 1] + grid[i, j];
                         }
-                        else
-                        {
-                            Console.WriteLine(i);
-                            Console.WriteLine(j);
-                            Console.WriteLine("------");
-                        }
                     }
                 }
             }
 
-            return map[row - 1, col - 1];
+            return map[col - 1, row - 1];
         }
     }
 }
