@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum Path Sum", "Minimum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Time to Buy and Sell Stock II", "Best Time to Buy and Sell Stock II\Best Time to Buy and Sell Stock II.csproj", "{8A484CEB-F85B-4B9B-B3E8-5CCA1267EC0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best Time to Buy and Sell Stock III", "Best Time to Buy and Sell Stock III\Best Time to Buy and Sell Stock III.csproj", "{0900F6D8-5ABC-48A4-BC0F-41604D920BC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{8A484CEB-F85B-4B9B-B3E8-5CCA1267EC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A484CEB-F85B-4B9B-B3E8-5CCA1267EC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A484CEB-F85B-4B9B-B3E8-5CCA1267EC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0900F6D8-5ABC-48A4-BC0F-41604D920BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0900F6D8-5ABC-48A4-BC0F-41604D920BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0900F6D8-5ABC-48A4-BC0F-41604D920BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0900F6D8-5ABC-48A4-BC0F-41604D920BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
