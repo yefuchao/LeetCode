@@ -16,7 +16,10 @@ namespace Permutations
         {
             List<IList<int>> list = new List<IList<int>>();
 
-            //TODO
+            for (int i = 0; i < nums.Length; i++)
+            {
+                //todo
+            }
 
             return list;
         }
