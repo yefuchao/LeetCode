@@ -97,7 +97,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Group Anagrams", "Group Ana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Subarray", "Maximum Subarray\Maximum Subarray.csproj", "{5FB5F3DC-C6A7-48B8-8811-5BD4028ACE0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeOfDdemo", "TypeOfDdemo\TypeOfDdemo.csproj", "{EDCCD896-B4FC-40CC-B7CA-E741B5B7D90F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detect_Capital", "TypeOfDdemo\Detect_Capital.csproj", "{EDCCD896-B4FC-40CC-B7CA-E741B5B7D90F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
