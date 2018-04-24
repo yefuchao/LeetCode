@@ -10,47 +10,55 @@ namespace Remove_Nth_Node_From_End_of_List
     {
         static void Main(string[] args)
         {
-            //TODO Remove_Nth_Node_From_End_of_List
+            ListNode list = new ListNode(1);
+            list.next = new ListNode(2);
+            list.next.next = new ListNode(3);
+            list.next.next.next = new ListNode(4);
+
+            var t = RemoveNthFromEnd(list, 2);
+
+            while (t != null)
+            {
+                Console.WriteLine(t.val);
+                t = t.next;
+            }
+
+            Console.ReadKey();
         }
 
-        public ListNode RemoveNthFromEnd(ListNode head, int n)
+        public static ListNode RemoveNthFromEnd(ListNode head, int n)
         {
-            if (head == null)
+
+            ListNode dummy = new ListNode(0);
+            dummy.next = head;
+
+            int length = 0;
+
+            ListNode first = head;
+
+            while (first != null)
             {
-                return null;
+                length++;
+                first = first.next;
             }
 
-            if (head.next == null && n == 0)
+            length -= n;
+
+            first = dummy;
+
+            while (length > 0)
             {
-                return null;
+                length--;
+                first = first.next;
             }
 
-            ListNode list = null;
+            first.next = first.next.next;
 
-            var count = 0;
+            //TODO think why
 
-            list = new ListNode(head.val);
-
-            while (head.next != null)
-            {
-
-                if (count == n)
-                {
-
-                }
-
-                count++;
-            }
-
-            return list;
+            return dummy.next;
         }
 
-        public ListNode GenerateListNode(ListNode head, int next)
-        {
-            head.next = new ListNode(next);
-
-            return head;
-        }
 
         public class ListNode
         {
