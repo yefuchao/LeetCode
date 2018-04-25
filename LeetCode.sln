@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Subarray", "Maximum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detect_Capital", "TypeOfDdemo\Detect_Capital.csproj", "{EDCCD896-B4FC-40CC-B7CA-E741B5B7D90F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unique Paths", "Unique Paths\Unique Paths.csproj", "{6F2A3353-6A11-4AC6-ADA3-8AD0DF3520EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,14 +299,10 @@ Global
 		{EDCCD896-B4FC-40CC-B7CA-E741B5B7D90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCCD896-B4FC-40CC-B7CA-E741B5B7D90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDCCD896-B4FC-40CC-B7CA-E741B5B7D90F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77323E6D-B857-42A2-8F59-E99AC82A9B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77323E6D-B857-42A2-8F59-E99AC82A9B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77323E6D-B857-42A2-8F59-E99AC82A9B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77323E6D-B857-42A2-8F59-E99AC82A9B85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5FB5F3DC-C6A7-48B8-8811-5BD4028ACE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5FB5F3DC-C6A7-48B8-8811-5BD4028ACE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5FB5F3DC-C6A7-48B8-8811-5BD4028ACE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5FB5F3DC-C6A7-48B8-8811-5BD4028ACE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2A3353-6A11-4AC6-ADA3-8AD0DF3520EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2A3353-6A11-4AC6-ADA3-8AD0DF3520EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2A3353-6A11-4AC6-ADA3-8AD0DF3520EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2A3353-6A11-4AC6-ADA3-8AD0DF3520EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
