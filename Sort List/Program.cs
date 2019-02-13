@@ -8,7 +8,24 @@ namespace Sort_List
         {
             Console.WriteLine("Hello World!");
 
+            ListNode head = new ListNode(4)
+            {
+                next = new ListNode(2)
+            };
+            head.next.next = new ListNode(1)
+            {
+                next = new ListNode(3)
+            };
 
+            var value = SortList(head);
+
+            while (value != null)
+            {
+                Console.WriteLine(value.val);
+                value = value.next;
+            }
+
+            Console.ReadLine();
         }
 
 

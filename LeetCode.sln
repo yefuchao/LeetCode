@@ -101,9 +101,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detect_Capital", "TypeOfDde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unique Paths", "Unique Paths\Unique Paths.csproj", "{6F2A3353-6A11-4AC6-ADA3-8AD0DF3520EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest Number", "Largest Number\Largest Number.csproj", "{41E57F28-AB5D-4DAE-9F55-0C4D1E4C0C47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Largest Number", "Largest Number\Largest Number.csproj", "{41E57F28-AB5D-4DAE-9F55-0C4D1E4C0C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort List", "Sort List\Sort List.csproj", "{40CD33A2-5FDC-4333-AB0D-184803F7A7A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort List", "Sort List\Sort List.csproj", "{40CD33A2-5FDC-4333-AB0D-184803F7A7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Sum", "Target Sum\Target Sum.csproj", "{B62524F1-6785-4EAE-92D3-BD08EABDB1F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -315,6 +317,10 @@ Global
 		{40CD33A2-5FDC-4333-AB0D-184803F7A7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40CD33A2-5FDC-4333-AB0D-184803F7A7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40CD33A2-5FDC-4333-AB0D-184803F7A7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62524F1-6785-4EAE-92D3-BD08EABDB1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62524F1-6785-4EAE-92D3-BD08EABDB1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62524F1-6785-4EAE-92D3-BD08EABDB1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62524F1-6785-4EAE-92D3-BD08EABDB1F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
