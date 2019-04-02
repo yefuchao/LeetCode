@@ -107,7 +107,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort List", "Sort List\Sort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Target Sum", "Target Sum\Target Sum.csproj", "{B62524F1-6785-4EAE-92D3-BD08EABDB1F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plus One", "Plus One\Plus One.csproj", "{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plus One", "Plus One\Plus One.csproj", "{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decode Ways", "Decode Ways\Decode Ways.csproj", "{4CC4F4A0-6592-4B4B-BD2E-786B7BE28DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977 Squares of a Sorted Array", "977 Squares of a Sorted Array\977 Squares of a Sorted Array.csproj", "{10B2E3B5-F0BA-470A-8532-83CE39563BAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +331,14 @@ Global
 		{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC4F4A0-6592-4B4B-BD2E-786B7BE28DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC4F4A0-6592-4B4B-BD2E-786B7BE28DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC4F4A0-6592-4B4B-BD2E-786B7BE28DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC4F4A0-6592-4B4B-BD2E-786B7BE28DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B2E3B5-F0BA-470A-8532-83CE39563BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B2E3B5-F0BA-470A-8532-83CE39563BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B2E3B5-F0BA-470A-8532-83CE39563BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B2E3B5-F0BA-470A-8532-83CE39563BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
