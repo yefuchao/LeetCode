@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Two Numbers", "Add Two Numbers\Add Two Numbers.csproj", "{47264B57-43E0-475E-A011-DBF729D9D61A}"
 EndProject
@@ -107,7 +107,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort List", "Sort List\Sort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Target Sum", "Target Sum\Target Sum.csproj", "{B62524F1-6785-4EAE-92D3-BD08EABDB1F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plus One", "Plus One\Plus One.csproj", "{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plus One", "Plus One\Plus One.csproj", "{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subsets", "Subsets\Subsets.csproj", "{1F726335-7A6C-4101-ACBA-530650FD6A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{200BAFB6-20A2-4CF2-B683-AF50AC7116E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F726335-7A6C-4101-ACBA-530650FD6A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F726335-7A6C-4101-ACBA-530650FD6A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F726335-7A6C-4101-ACBA-530650FD6A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F726335-7A6C-4101-ACBA-530650FD6A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
