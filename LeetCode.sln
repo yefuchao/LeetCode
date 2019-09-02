@@ -111,7 +111,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plus One", "Plus One\Plus O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decode Ways", "Decode Ways\Decode Ways.csproj", "{4CC4F4A0-6592-4B4B-BD2E-786B7BE28DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977 Squares of a Sorted Array", "977 Squares of a Sorted Array\977 Squares of a Sorted Array.csproj", "{10B2E3B5-F0BA-470A-8532-83CE39563BAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "977 Squares of a Sorted Array", "977 Squares of a Sorted Array\977 Squares of a Sorted Array.csproj", "{10B2E3B5-F0BA-470A-8532-83CE39563BAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invalid Transactions", "Invalid Transactions\Invalid Transactions.csproj", "{B48420E2-8D50-4DB1-B09C-47B6F27B70E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compare Strings by Frequency of the Smallest Character", "Compare Strings by Frequency of the Smallest Character\Compare Strings by Frequency of the Smallest Character.csproj", "{B41A7443-3602-4F87-9BDC-2661A389650B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove Zero Sum Consecutive Nodes from Linked List", "Remove Zero Sum Consecutive Nodes from Linked List\Remove Zero Sum Consecutive Nodes from Linked List.csproj", "{5A33F97F-C8A7-4551-A9DD-B8AAD66CC4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prime Arrangements", "Prime Arrangements\Prime Arrangements.csproj", "{77BCE3A2-FE09-4FED-A187-4F7DF291293A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diet Plan Performance", "Diet Plan Performance\Diet Plan Performance.csproj", "{9FDF00DF-0049-4FC7-A7FB-D326BDAD20C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can Make Palindrome from Substring", "Can Make Palindrome from Substring\Can Make Palindrome from Substring.csproj", "{B467BED2-B5D9-418D-AB95-A9A1C014380D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,6 +351,30 @@ Global
 		{10B2E3B5-F0BA-470A-8532-83CE39563BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B2E3B5-F0BA-470A-8532-83CE39563BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B2E3B5-F0BA-470A-8532-83CE39563BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48420E2-8D50-4DB1-B09C-47B6F27B70E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48420E2-8D50-4DB1-B09C-47B6F27B70E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48420E2-8D50-4DB1-B09C-47B6F27B70E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48420E2-8D50-4DB1-B09C-47B6F27B70E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41A7443-3602-4F87-9BDC-2661A389650B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41A7443-3602-4F87-9BDC-2661A389650B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41A7443-3602-4F87-9BDC-2661A389650B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41A7443-3602-4F87-9BDC-2661A389650B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A33F97F-C8A7-4551-A9DD-B8AAD66CC4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A33F97F-C8A7-4551-A9DD-B8AAD66CC4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A33F97F-C8A7-4551-A9DD-B8AAD66CC4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A33F97F-C8A7-4551-A9DD-B8AAD66CC4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BCE3A2-FE09-4FED-A187-4F7DF291293A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BCE3A2-FE09-4FED-A187-4F7DF291293A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BCE3A2-FE09-4FED-A187-4F7DF291293A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BCE3A2-FE09-4FED-A187-4F7DF291293A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDF00DF-0049-4FC7-A7FB-D326BDAD20C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDF00DF-0049-4FC7-A7FB-D326BDAD20C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDF00DF-0049-4FC7-A7FB-D326BDAD20C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDF00DF-0049-4FC7-A7FB-D326BDAD20C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B467BED2-B5D9-418D-AB95-A9A1C014380D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B467BED2-B5D9-418D-AB95-A9A1C014380D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B467BED2-B5D9-418D-AB95-A9A1C014380D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B467BED2-B5D9-418D-AB95-A9A1C014380D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
