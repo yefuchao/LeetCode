@@ -121,7 +121,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Sorted Array", "Merge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restore IP Addresses", "Restore IP Addresses\Restore IP Addresses.csproj", "{930EAE18-AACB-41CC-A450-97DBA593DB28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letter Case Permutation", "Letter Case Permutation\Letter Case Permutation.csproj", "{C498AA1F-0654-4A36-81EF-12A3505825DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Letter Case Permutation", "Letter Case Permutation\Letter Case Permutation.csproj", "{C498AA1F-0654-4A36-81EF-12A3505825DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumTilePossibilities", "NumTilePossibilities\NumTilePossibilities.csproj", "{7936AC3F-9A6A-47B5-9CD6-BA9CDB392542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Median of Two Sorted Arrays", "Median of Two Sorted Arrays\Median of Two Sorted Arrays.csproj", "{C9377452-E250-49E3-92EE-DE1A42B949A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete Columns to Make Sorted II", "Delete Columns to Make Sorted II\Delete Columns to Make Sorted II.csproj", "{1722FD55-81A6-4D9B-9F43-BC7298A43239}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +375,18 @@ Global
 		{C498AA1F-0654-4A36-81EF-12A3505825DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C498AA1F-0654-4A36-81EF-12A3505825DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C498AA1F-0654-4A36-81EF-12A3505825DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7936AC3F-9A6A-47B5-9CD6-BA9CDB392542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7936AC3F-9A6A-47B5-9CD6-BA9CDB392542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7936AC3F-9A6A-47B5-9CD6-BA9CDB392542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7936AC3F-9A6A-47B5-9CD6-BA9CDB392542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9377452-E250-49E3-92EE-DE1A42B949A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9377452-E250-49E3-92EE-DE1A42B949A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9377452-E250-49E3-92EE-DE1A42B949A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9377452-E250-49E3-92EE-DE1A42B949A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1722FD55-81A6-4D9B-9F43-BC7298A43239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1722FD55-81A6-4D9B-9F43-BC7298A43239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1722FD55-81A6-4D9B-9F43-BC7298A43239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1722FD55-81A6-4D9B-9F43-BC7298A43239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
