@@ -26,6 +26,46 @@ namespace Remove_Nth_Node_From_End_of_List
             Console.ReadKey();
         }
 
+        public static ListNode RemoveNthFromEndII(ListNode head, int n)
+        {
+            //计算链表的长度
+
+            ListNode temp = head;
+
+            int length = 0;
+            while (temp != null)
+            {
+                length++;
+                temp = temp.next;
+            }
+
+            temp = head;
+
+            if (length == n)
+            {
+                return head.next;
+            }
+
+            //去掉的前一个
+            ListNode pre = head;
+
+            for (int i = 0; i < length - n - 1; i++)
+            {
+                pre = pre.next;
+            }
+
+            //ListNode next = head;
+
+            //for (int i = 0; i < length - n; i++)
+            //{
+            //    next = next.next;
+            //}
+
+            pre.next = pre.next.next;
+
+            return pre;
+        }
+
         public static ListNode RemoveNthFromEnd(ListNode head, int n)
         {
 

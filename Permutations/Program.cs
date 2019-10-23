@@ -10,7 +10,7 @@ namespace Permutations
     {
         static void Main(string[] args)
         {
-            var list = PermuteUnique(new int[] { 1, 1, 2, 2, 2 });
+            var list = PermuteWay2(new int[] { 1, 2, 3 });
 
             Console.WriteLine(list.Count());
             Console.ReadLine();
@@ -135,5 +135,40 @@ namespace Permutations
             return list;
         }
 
+        public static IList<IList<int>> PermuteWay2(int[] nums)
+        {
+            IList<IList<int>> res = new List<IList<int>>();
+
+            IList<int> array = new List<int>();
+            PermuteBackTracking(nums, new int[nums.Length], array, res);
+
+            return res;
+        }
+
+        public static void PermuteBackTracking(int[] nums, int[] visited, IList<int> array, IList<IList<int>> res)
+        {
+            if (array.Count == nums.Length)
+            {
+                //必须重新定义对象，否则后面对array值得修改会影响结果里得对象
+                var r = new List<int>();
+                r.AddRange(array);
+                res.Add(r);
+                return;
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (visited[i] == 1)
+                {
+                    continue;
+                }
+
+                visited[i] = 1;
+                array.Add(nums[i]);
+                PermuteBackTracking(nums, visited, array, res);
+                visited[i] = 0;
+                array.RemoveAt(array.Count - 1);
+            }
+        }
     }
 }
