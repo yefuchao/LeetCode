@@ -119,11 +119,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compare Strings by Frequenc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove Zero Sum Consecutive Nodes from Linked List", "Remove Zero Sum Consecutive Nodes from Linked List\Remove Zero Sum Consecutive Nodes from Linked List.csproj", "{5A33F97F-C8A7-4551-A9DD-B8AAD66CC4E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prime Arrangements", "Prime Arrangements\Prime Arrangements.csproj", "{77BCE3A2-FE09-4FED-A187-4F7DF291293A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prime Arrangements", "Prime Arrangements\Prime Arrangements.csproj", "{77BCE3A2-FE09-4FED-A187-4F7DF291293A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diet Plan Performance", "Diet Plan Performance\Diet Plan Performance.csproj", "{9FDF00DF-0049-4FC7-A7FB-D326BDAD20C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diet Plan Performance", "Diet Plan Performance\Diet Plan Performance.csproj", "{9FDF00DF-0049-4FC7-A7FB-D326BDAD20C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can Make Palindrome from Substring", "Can Make Palindrome from Substring\Can Make Palindrome from Substring.csproj", "{B467BED2-B5D9-418D-AB95-A9A1C014380D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Can Make Palindrome from Substring", "Can Make Palindrome from Substring\Can Make Palindrome from Substring.csproj", "{B467BED2-B5D9-418D-AB95-A9A1C014380D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subsets", "Subsets\Subsets.csproj", "{1F726335-7A6C-4101-ACBA-530650FD6A01}"
 EndProject
@@ -143,7 +143,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumTilePossibilities", "Num
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Median of Two Sorted Arrays", "Median of Two Sorted Arrays\Median of Two Sorted Arrays.csproj", "{C9377452-E250-49E3-92EE-DE1A42B949A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete Columns to Make Sorted II", "Delete Columns to Make Sorted II\Delete Columns to Make Sorted II.csproj", "{1722FD55-81A6-4D9B-9F43-BC7298A43239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delete Columns to Make Sorted II", "Delete Columns to Make Sorted II\Delete Columns to Make Sorted II.csproj", "{1722FD55-81A6-4D9B-9F43-BC7298A43239}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Number of Balloons", "Maximum Number of Balloons\Maximum Number of Balloons.csproj", "{4EB3ACB6-A5C9-4BFB-A0A1-B1C22B00297B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Substrings Between Each Pair of Parentheses", "Reverse Substrings Between Each Pair of Parentheses\Reverse Substrings Between Each Pair of Parentheses.csproj", "{76ABE85B-A284-4114-A7A8-016F41DFA29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral Matrix", "Spiral Matrix\Spiral Matrix.csproj", "{6F983EC4-3592-4B1D-BE7C-4063D6DBD5B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -435,6 +441,18 @@ Global
 		{1722FD55-81A6-4D9B-9F43-BC7298A43239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1722FD55-81A6-4D9B-9F43-BC7298A43239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1722FD55-81A6-4D9B-9F43-BC7298A43239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB3ACB6-A5C9-4BFB-A0A1-B1C22B00297B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB3ACB6-A5C9-4BFB-A0A1-B1C22B00297B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB3ACB6-A5C9-4BFB-A0A1-B1C22B00297B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB3ACB6-A5C9-4BFB-A0A1-B1C22B00297B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76ABE85B-A284-4114-A7A8-016F41DFA29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ABE85B-A284-4114-A7A8-016F41DFA29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ABE85B-A284-4114-A7A8-016F41DFA29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ABE85B-A284-4114-A7A8-016F41DFA29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F983EC4-3592-4B1D-BE7C-4063D6DBD5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F983EC4-3592-4B1D-BE7C-4063D6DBD5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F983EC4-3592-4B1D-BE7C-4063D6DBD5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F983EC4-3592-4B1D-BE7C-4063D6DBD5B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
