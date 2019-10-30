@@ -163,11 +163,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kth Largest Element in an A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product of Array Except Self", "Product of Array Except Self\Product of Array Except Self.csproj", "{2EDE357F-4635-4285-8533-E67CF7DAF5F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral Matrix II", "Spiral Matrix II\Spiral Matrix II.csproj", "{2ACC9FDC-6CBB-42A2-A030-0BBF6F24B23A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spiral Matrix II", "Spiral Matrix II\Spiral Matrix II.csproj", "{2ACC9FDC-6CBB-42A2-A030-0BBF6F24B23A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiply Strings", "Multiply Strings\Multiply Strings.csproj", "{15F5A621-DFBD-4436-9B55-DFA8DD1D808E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiply Strings", "Multiply Strings\Multiply Strings.csproj", "{15F5A621-DFBD-4436-9B55-DFA8DD1D808E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked List Cycle II", "Linked List Cycle II\Linked List Cycle II.csproj", "{6323F70B-3A1B-457A-B6AC-602023E3FBF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked List Cycle II", "Linked List Cycle II\Linked List Cycle II.csproj", "{6323F70B-3A1B-457A-B6AC-602023E3FBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Maximum Path Sum", "Binary Tree Maximum Path Sum\Binary Tree Maximum Path Sum.csproj", "{AD815B3F-519D-4BE0-B291-1CAD5532FF26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -507,6 +509,10 @@ Global
 		{6323F70B-3A1B-457A-B6AC-602023E3FBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6323F70B-3A1B-457A-B6AC-602023E3FBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6323F70B-3A1B-457A-B6AC-602023E3FBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD815B3F-519D-4BE0-B291-1CAD5532FF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD815B3F-519D-4BE0-B291-1CAD5532FF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD815B3F-519D-4BE0-B291-1CAD5532FF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD815B3F-519D-4BE0-B291-1CAD5532FF26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
