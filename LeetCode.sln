@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.28917.181
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Two Numbers", "Add Two Numbers\Add Two Numbers.csproj", "{47264B57-43E0-475E-A011-DBF729D9D61A}"
 EndProject
@@ -170,6 +170,18 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked List Cycle II", "Linked List Cycle II\Linked List Cycle II.csproj", "{6323F70B-3A1B-457A-B6AC-602023E3FBF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Maximum Path Sum", "Binary Tree Maximum Path Sum\Binary Tree Maximum Path Sum.csproj", "{AD815B3F-519D-4BE0-B291-1CAD5532FF26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distance Between Bus Stops", "Distance Between Bus Stops\Distance Between Bus Stops.csproj", "{30EA587F-88C1-4890-96A0-E1026FD892BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Subarray Sum with One Deletion", "Maximum Subarray Sum with One Deletion\Maximum Subarray Sum with One Deletion.csproj", "{B4F6F717-A164-4F15-8DAF-105506CABB7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Length of a Concatenated String with Unique Characters", "Maximum Length of a Concatenated String with Unique Characters\Maximum Length of a Concatenated String with Unique Characters.csproj", "{50399CAF-EEC4-4947-9EE4-8083156423AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiling a Rectangle with the Fewest Squares", "Tiling a Rectangle with the Fewest Squares\Tiling a Rectangle with the Fewest Squares.csproj", "{A14D472A-4B09-458D-916D-976D4D2B40E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Positive Integer Solution for a Given Equation", "Find Positive Integer Solution for a Given Equation\Find Positive Integer Solution for a Given Equation.csproj", "{48E7CBE7-7528-407C-81E5-2CA76FD0C6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert Sorted Array to Binary Search Tree", "Convert Sorted Array to Binary Search Tree\Convert Sorted Array to Binary Search Tree.csproj", "{59A4038F-6AA7-41DE-8EB6-27C995579790}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -509,6 +521,30 @@ Global
 		{6323F70B-3A1B-457A-B6AC-602023E3FBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6323F70B-3A1B-457A-B6AC-602023E3FBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6323F70B-3A1B-457A-B6AC-602023E3FBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EA587F-88C1-4890-96A0-E1026FD892BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EA587F-88C1-4890-96A0-E1026FD892BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EA587F-88C1-4890-96A0-E1026FD892BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EA587F-88C1-4890-96A0-E1026FD892BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F6F717-A164-4F15-8DAF-105506CABB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F6F717-A164-4F15-8DAF-105506CABB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F6F717-A164-4F15-8DAF-105506CABB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F6F717-A164-4F15-8DAF-105506CABB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50399CAF-EEC4-4947-9EE4-8083156423AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50399CAF-EEC4-4947-9EE4-8083156423AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50399CAF-EEC4-4947-9EE4-8083156423AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50399CAF-EEC4-4947-9EE4-8083156423AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14D472A-4B09-458D-916D-976D4D2B40E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14D472A-4B09-458D-916D-976D4D2B40E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14D472A-4B09-458D-916D-976D4D2B40E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14D472A-4B09-458D-916D-976D4D2B40E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E7CBE7-7528-407C-81E5-2CA76FD0C6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E7CBE7-7528-407C-81E5-2CA76FD0C6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E7CBE7-7528-407C-81E5-2CA76FD0C6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E7CBE7-7528-407C-81E5-2CA76FD0C6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A4038F-6AA7-41DE-8EB6-27C995579790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A4038F-6AA7-41DE-8EB6-27C995579790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A4038F-6AA7-41DE-8EB6-27C995579790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A4038F-6AA7-41DE-8EB6-27C995579790}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD815B3F-519D-4BE0-B291-1CAD5532FF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD815B3F-519D-4BE0-B291-1CAD5532FF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD815B3F-519D-4BE0-B291-1CAD5532FF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
