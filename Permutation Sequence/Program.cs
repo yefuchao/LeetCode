@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace Permutation_Sequence
@@ -7,79 +8,69 @@ namespace Permutation_Sequence
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetPermutation(3, 6));
+            Console.WriteLine(CalNumber(4, 23));
 
             Console.ReadLine();
         }
 
-        public static string GetPermutation(int n, int k)
+        static int[] mark;
+        static int len;
+        private static List<string> targets = new List<string>();
+
+        public static string CalNumber(int n, int k)
         {
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < n; i++)
+            int[] store = new int[n + 1];
+            List<int> list = new List<int>();
+
+            store[0] = 1;
+            for (int i = 1; i <= n; i++)
             {
-                sb.Append(i + 1);
+                store[i] = store[i - 1] * i;
+                list.Add(i);
             }
 
-            int count = Count(n);
-
-            string origin = sb.ToString();
-
-            StringBuilder res = new StringBuilder();
-
-            while (res.Length != n)
+            //计算每一位的数字
+            for (int i = n - 1; i >= 0; i--)
             {
-                if (k > count)
-                {
-                    int pos = k / count; //数字位置
-                    k = k % count; //从新计算k
-                    res.Append(origin[pos]); //加到结果中
-                    origin = origin.Remove(pos, 1);  //从字符串在去掉
-                }
-                else
-                {
-                    //当前第一个数字
-                    res.Append(origin[0]);
-                    origin = origin.Remove(0, 1);
-                }
-
-                count = Count(origin.Length);
+                int index = k % store[i] == 0 ? k / store[i] - 1 : k / store[i];
+                sb.Append(list[index]);
+                list.RemoveAt(index);
+                k -= store[i] * index;
             }
 
-            return Getnumber(sb.ToString(), k);
+            return sb.ToString();
         }
 
-        public static string Getnumber(string str, int k)
+        //超时
+        public static string GetPermutation(int n, int k)
         {
-            if (k == 1)
-            {
-                return str;
-            }
+            mark = new int[n];
+            len = n;
 
-            int n = str.Length;
-            int c = Count(n);
+            BackTracking("");
 
-            if (c == 1)
-            {
-                //说明只有2位数字了
-                return str[1].ToString() + str[0].ToString();
-            }
-
-            int pos = k / c;
-            k = k % c;
-
-            return str[pos].ToString() + Getnumber(str.Remove(pos, 1), k).ToString();
-
+            return targets[k - 1];
         }
 
-        public static int Count(int n)
+        public static void BackTracking(string target)
         {
-            if (n == 1 || n == 2)
+            if (len == target.Length)
             {
-                return 1;
+                targets.Add(target);
             }
 
-            return (n - 1) * Count(n - 1);
-
+            for (int i = 0; i < len; i++)
+            {
+                if (mark[i] == 0)
+                {
+                    target += i + 1;
+                    mark[i] = 1;
+                    BackTracking(target);
+                    mark[i] = 0;
+                    target = target.Substring(0, target.Length - 1);
+                }
+            }
         }
     }
 }
