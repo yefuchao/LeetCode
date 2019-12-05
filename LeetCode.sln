@@ -183,16 +183,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Positive Integer Solut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convert Sorted Array to Binary Search Tree", "Convert Sorted Array to Binary Search Tree\Convert Sorted Array to Binary Search Tree.csproj", "{59A4038F-6AA7-41DE-8EB6-27C995579790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{C026F2EE-AEB2-428C-A50E-E15AED21E384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{C026F2EE-AEB2-428C-A50E-E15AED21E384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation in String", "Permutation in String\Permutation in String.csproj", "{1DBE3FC8-0E28-420A-A30A-8153E93CEE77}"
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convert Sorted Array to Binary Search Tree", "Convert Sorted Array to Binary Search Tree\Convert Sorted Array to Binary Search Tree.csproj", "{59A4038F-6AA7-41DE-8EB6-27C995579790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permutation in String", "Permutation in String\Permutation in String.csproj", "{1DBE3FC8-0E28-420A-A30A-8153E93CEE77}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array Transformation", "Array Transformation\Array Transformation.csproj", "{A0C9D890-526B-4448-BE46-D75BD8122770}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shift 2D Grid", "Shift 2D Grid\Shift 2D Grid.csproj", "{1D72FE9F-98D9-4548-94CF-25398D7E8C81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{37FD4CD0-C85A-49E5-A213-5F94BD9ED1C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triangle", "Triangle\Triangle.csproj", "{37FD4CD0-C85A-49E5-A213-5F94BD9ED1C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
