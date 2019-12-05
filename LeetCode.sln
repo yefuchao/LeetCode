@@ -205,7 +205,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Combination Sum", "Combinat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Combination Sum II", "Combination Sum II\Combination Sum II.csproj", "{963A45C8-E5B2-48EF-B022-4781BD067788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations II", "Permutations II\Permutations II.csproj", "{3A62F76C-2DB5-4BCF-9A1F-B1A8C05F312B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permutations II", "Permutations II\Permutations II.csproj", "{3A62F76C-2DB5-4BCF-9A1F-B1A8C05F312B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Search", "Word Search\Word Search.csproj", "{D8DB436B-4E01-4A62-9F41-103237D19EBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -621,6 +623,10 @@ Global
 		{3A62F76C-2DB5-4BCF-9A1F-B1A8C05F312B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A62F76C-2DB5-4BCF-9A1F-B1A8C05F312B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A62F76C-2DB5-4BCF-9A1F-B1A8C05F312B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DB436B-4E01-4A62-9F41-103237D19EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DB436B-4E01-4A62-9F41-103237D19EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DB436B-4E01-4A62-9F41-103237D19EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DB436B-4E01-4A62-9F41-103237D19EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
