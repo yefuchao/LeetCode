@@ -17,15 +17,11 @@ namespace Subsets_II
             //1,2,2
         }
 
-        static IList<IList<int>> lists = new List<IList<int>>();
-        static int[] map;
+        static readonly IList<IList<int>> lists = new List<IList<int>>();
         static int[] g_nums;
 
         public static IList<IList<int>> SubsetsWithDup(int[] nums)
         {
-
-            map = new int[nums.Length];
-
             Array.Sort(nums);
 
             g_nums = nums;
@@ -44,22 +40,13 @@ namespace Subsets_II
                 return;
             }
 
-            for (int i = index; i < map.Length; i++)
+            for (int i = index; i < g_nums.Length; i++)
             {
-                //单个
-                //if (stack.Count == 0 && (i == 0 ? true : g_nums[i] != g_nums[i - 1]))
-                //{
-                //    lists.Add(new List<int> { g_nums[i] });
-                //}
-
                 //重复
-                if (i > index && g_nums[i] == g_nums[i - 1] && map[i - 1] == 0)
+                if (i > index && g_nums[i] == g_nums[i - 1])
                 {
                     continue;
                 }
-
-                map[index] = 1;
-
                 stack.Push(g_nums[i]);
 
                 lists.Add(stack.ToArray());
@@ -67,7 +54,6 @@ namespace Subsets_II
                 BackTracking(i + 1, stack);
 
                 stack.Pop();
-                map[index] = 0;
             }
         }
     }
