@@ -215,9 +215,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max Increase to Keep City S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gray Code", "Gray Code\Gray Code.csproj", "{9516BEF4-EFA2-4504-8C47-4B9060107200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uncrossed Lines", "Uncrossed Lines\Uncrossed Lines.csproj", "{2FD33CCF-1D3C-4B3C-A939-D128AD15DCCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uncrossed Lines", "Uncrossed Lines\Uncrossed Lines.csproj", "{2FD33CCF-1D3C-4B3C-A939-D128AD15DCCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unique Paths II", "Unique Paths II\Unique Paths II.csproj", "{69E9DA58-B04E-4AEF-A44A-40E1E2802273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unique Paths II", "Unique Paths II\Unique Paths II.csproj", "{69E9DA58-B04E-4AEF-A44A-40E1E2802273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Break", "Word Break\Word Break.csproj", "{823872D9-B186-4188-9339-191F6C3A5575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -657,6 +659,10 @@ Global
 		{69E9DA58-B04E-4AEF-A44A-40E1E2802273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E9DA58-B04E-4AEF-A44A-40E1E2802273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E9DA58-B04E-4AEF-A44A-40E1E2802273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823872D9-B186-4188-9339-191F6C3A5575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823872D9-B186-4188-9339-191F6C3A5575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823872D9-B186-4188-9339-191F6C3A5575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823872D9-B186-4188-9339-191F6C3A5575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,6 +7,10 @@ namespace Unique_Paths_II
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            int[][] grid = new int[1][];
+            grid[0] = new int[2];
+
+            UniquePathsWithObstacles(grid);
         }
         public static int UniquePathsWithObstacles(int[][] obstacleGrid)
         {
@@ -15,6 +19,8 @@ namespace Unique_Paths_II
 
             int[,] dp = new int[m + 1, n + 1];
 
+
+            var A = (int)char.GetNumericValue('1');
 
             dp[0, 1] = 1;
 
