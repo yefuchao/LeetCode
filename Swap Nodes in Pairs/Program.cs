@@ -21,6 +21,22 @@ namespace Swap_Nodes_in_Pairs
             Console.ReadLine();
         }
 
+        public static ListNode SwapPairsRecursion(ListNode head)
+        {
+            if (head == null || head.next == null)
+            {
+                return head;
+            }
+
+            var firstNode = head;
+            var secondNode = head.next;
+
+            firstNode.next = SwapPairsRecursion(secondNode.next);
+            secondNode = firstNode;
+
+            return secondNode;
+        }
+
         public static ListNode SwapPairs(ListNode head)
         {
             if (head == null)
