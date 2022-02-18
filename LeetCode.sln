@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29418.71
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Two Numbers", "Add Two Numbers\Add Two Numbers.csproj", "{47264B57-43E0-475E-A011-DBF729D9D61A}"
 EndProject
@@ -225,9 +225,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Palindromic Substri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix Block Sum", "Matrix Block Sum\Matrix Block Sum.csproj", "{E8023E8B-9E34-453B-9ECF-CA56B89D02D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Square Submatrices with All Ones", "Count Square Submatrices with All Ones\Count Square Submatrices with All Ones.csproj", "{948FD18F-E32E-4821-A134-00DA1F15A8AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Square Submatrices with All Ones", "Count Square Submatrices with All Ones\Count Square Submatrices with All Ones.csproj", "{948FD18F-E32E-4821-A134-00DA1F15A8AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting Bits", "Counting Bits\Counting Bits.csproj", "{409E43DC-32B5-4D68-8310-E9B8431B6577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counting Bits", "Counting Bits\Counting Bits.csproj", "{409E43DC-32B5-4D68-8310-E9B8431B6577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove K Digits", "Remove K Digits\Remove K Digits.csproj", "{ECC867CF-9420-4ABF-9E09-A489D164200F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -687,6 +689,10 @@ Global
 		{409E43DC-32B5-4D68-8310-E9B8431B6577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{409E43DC-32B5-4D68-8310-E9B8431B6577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{409E43DC-32B5-4D68-8310-E9B8431B6577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC867CF-9420-4ABF-9E09-A489D164200F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC867CF-9420-4ABF-9E09-A489D164200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC867CF-9420-4ABF-9E09-A489D164200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC867CF-9420-4ABF-9E09-A489D164200F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
