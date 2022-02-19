@@ -229,7 +229,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Square Submatrices wi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counting Bits", "Counting Bits\Counting Bits.csproj", "{409E43DC-32B5-4D68-8310-E9B8431B6577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove K Digits", "Remove K Digits\Remove K Digits.csproj", "{ECC867CF-9420-4ABF-9E09-A489D164200F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove K Digits", "Remove K Digits\Remove K Digits.csproj", "{ECC867CF-9420-4ABF-9E09-A489D164200F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimize Deviation in Array", "Minimize Deviation in Array\Minimize Deviation in Array.csproj", "{9B0DFE30-3E0E-48EA-A871-20700304A538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -693,6 +695,10 @@ Global
 		{ECC867CF-9420-4ABF-9E09-A489D164200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECC867CF-9420-4ABF-9E09-A489D164200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECC867CF-9420-4ABF-9E09-A489D164200F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0DFE30-3E0E-48EA-A871-20700304A538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0DFE30-3E0E-48EA-A871-20700304A538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0DFE30-3E0E-48EA-A871-20700304A538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0DFE30-3E0E-48EA-A871-20700304A538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
